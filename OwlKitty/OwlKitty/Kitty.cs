@@ -16,7 +16,7 @@ namespace OwlKitty
 
         public Kitty()
         {
-            fluffy = "fluff";
+            fluffy = "fluffy";
             legNumber = 4;
             feature = "cuddly";
         }

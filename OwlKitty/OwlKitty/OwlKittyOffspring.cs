@@ -11,12 +11,13 @@ namespace OwlKitty
         IKitty kitty;
         IOwl owl;
 
-       OwlKittyOffspring()
+        public OwlKittyOffspring()
         {
             owl = new Owl();
             kitty = new Kitty();
         }
 
+        //methods from both classes Kitty and Owl used thanks to interfaces
         public string Fluffy()
         {
             return kitty.Fluffy();
