@@ -8,6 +8,8 @@ namespace OwlKitty
 {
     internal class Kitty
     {
+        //Atritubes for class Kitty and methods returning them
+
         private string fluffy = "fluff";
         private int legNumber = 4;
         private string feature = "cuddly";
