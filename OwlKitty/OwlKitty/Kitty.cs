@@ -6,13 +6,20 @@ using System.Threading.Tasks;
 
 namespace OwlKitty
 {
-    internal class Kitty
+    internal class Kitty:IKitty
     {
         //Atritubes for class Kitty and methods returning them
 
-        private string fluffy = "fluff";
-        private int legNumber = 4;
-        private string feature = "cuddly";
+        private string fluffy;
+        private int legNumber;
+        private string feature;
+
+        public Kitty()
+        {
+            fluffy = "fluff";
+            legNumber = 4;
+            feature = "cuddly";
+        }
 
         public string Fluffy()
         {

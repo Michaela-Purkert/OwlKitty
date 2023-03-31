@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace OwlKitty
 {
-    internal interface IKitty
+    internal interface IOwl
     {
-        //Methods from class Kitty i want to use
-        string Fluffy();
+        //Methods from class Owl i want to use
+        string Feathers();
+        int Wings();
+        string Nature();
 
-        int LegNumber();
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OwlKitty
 {
-    internal class Owl
+    internal class Owl:IOwl
     {
         //Atritubes for class Owl and methods returning them
 
