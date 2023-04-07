@@ -1,2 +1,2 @@
 # OwlKitty
-educational creation of the interface
+An educational creation of the interface
